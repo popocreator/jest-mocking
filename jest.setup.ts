@@ -15,66 +15,22 @@ import './__mock__/react-native-sound';
 import './__mock__/react-native-permissions';
 import './__mock__/amplitude-js';
 import './__mock__/react-native-appsflyer';
-
-// jest.mock('@sentry/react-native', () => ({
-//   init: jest.fn(),
-//   withProfiler: jest.fn(),
-//   ReactNavigationInstrumentation: jest.fn(),
-//   ReactNativeTracing: jest.fn(),
-// }));
-
-// import * as ReactNative from 'react-native';
-// import * as jest from 'jest';
-// // include this line for mocking react-native-gesture-handler
-// import 'react-native-gesture-handler/jestSetup';
-// import mock from 'react-native-permissions/mock';
-// import 'jest/build/index';
-
-// jest.mock('react-native-permissions', () => {
-//   return mock;
-// });
-
-// jest.mock('@notifee/react-native', () =>
-//   require('@notifee/react-native/jest-mock'),
-// );
-
-// // react-native-device-info
-// jest.mock('react-native-device-info', () =>
-//   require('react-native-device-info/jest/react-native-device-info-mock'),
-// );
-
-// // react-native-localize
-// jest.mock('react-native-localize', () => {
-//   return {
-//     // getLocales: jest.fn(),
-//     // you can add other functions mock here that you are using
-//   };
-// });
-
-// // NativeEventEmitter
-// jest.mock('react-native/Libraries/EventEmitter/NativeEventEmitter');
-
-// //Haptic
-// jest.mock('react-native-haptic-feedback', () => {});
-
-// // AsyncStorage
-// jest.mock('@react-native-async-storage/async-storage', () =>
-//   require('@react-native-async-storage/async-storage/jest/async-storage-mock'),
-// );
-
-// // react-navigation
-// // include this section and the NativeAnimatedHelper section for mocking react-native-reanimated
-// jest.mock('react-native-reanimated', () => {
-//   const Reanimated = require('react-native-reanimated/mock');
-//   console.log('Reanimated', Reanimated);
-
-//   // The mock for `call` immediately calls the callback which is incorrect
-//   // So we override it with a no-op
-//   Reanimated.default.call = () => {};
-
-//   return Reanimated;
-// });
-
-// // react-navigation
-// // Silence the warning: Animated: `useNativeDriver` is not supported because the native animated module is missing
-// jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+import './__mock__/@hackler/react-native-sdk';
+import './__mock__/react-native-adapty';
+import './__mock__/rn-tourguide';
+import './__mock__/react-native-watch-connectivity';
+import './__mock__/@react-native-firebase/perf';
+import './__mock__/@react-native-google-signin/google-signin';
+import './__mock__/react-native-color-matrix-image-filters';
+import './__mock__/react-native-share';
+import './__mock__/react-native-tts';
+import './__mock__/react-native-autolink';
+import './__mock__/react-native-google-mobile-ads';
+import './__mock__/react-native-sensors';
+import './__mock__/react-native-background-timer';
+import './__mock__/react-native-draggable-flatlist';
+import './__mock__/react-native-image-crop-picker';
+import './__mock__/@react-native-firebase/messaging';
+import './__mock__/react-native-onesignal';
+import './__mock__/react-native-code-push';
+import './__mock__/@invertase/react-native-apple-authentication';

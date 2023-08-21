@@ -1,1 +1,1 @@
-export default {};
+import 'react-native-gesture-handler/jestSetup';
