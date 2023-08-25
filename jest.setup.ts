@@ -34,3 +34,5 @@ import './__mock__/@react-native-firebase/messaging';
 import './__mock__/react-native-onesignal';
 import './__mock__/react-native-code-push';
 import './__mock__/@invertase/react-native-apple-authentication';
+import './__mock__/react-native-gesture-handler';
+import './__mock__/react-native-view-shot';
